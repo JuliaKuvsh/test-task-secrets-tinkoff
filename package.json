@@ -8,5 +8,8 @@
     "style": "sass --watch source/sass/style.scss source/sass/style.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }

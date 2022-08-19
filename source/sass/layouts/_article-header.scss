@@ -20,6 +20,7 @@
 }
 
 @media (min-width: $tablet-width) {
+    
     .article-header {
         margin-bottom: 0;
     }
@@ -38,6 +39,7 @@
 }
 
 @media (min-width: $desktop-width) {
+    
     .article-header__title {
         font-size: 36px;
         line-height: 44px;

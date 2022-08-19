@@ -12,6 +12,7 @@
 }
 
 @media (min-width: $tablet-width) {
+    
     .article-text__title {
         margin-top: 48px;
         margin-bottom: 12px;
@@ -19,6 +20,7 @@
 }
 
 @media (min-width: $desktop-width) {
+    
     .article-text__title {
         font-size: 28px;
         line-height: 32px;

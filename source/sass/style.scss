@@ -1,8 +1,11 @@
+//Abstract
 @import 'abstract/variables';
 
+//Base
 @import 'base/normalize';
 @import 'base/base';
 
+//Components
 @import 'components/article';
 @import 'components/article-list';
 @import 'components/article-text';
@@ -11,6 +14,6 @@
 @import 'components/tags';
 @import 'components/quote';
 
-
+//layouts
 @import 'layouts/columns';
 @import 'layouts/article-header';
