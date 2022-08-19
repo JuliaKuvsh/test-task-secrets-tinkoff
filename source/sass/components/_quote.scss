@@ -1,0 +1,47 @@
+.quote__description {
+    margin: 0;
+    line-height: 20px;
+}
+
+.quote__description__job {
+    color: #808C9E;
+}
+
+.quote__photo {
+    margin-right: 16px;
+}
+
+.quote-text {
+    margin-top: 36px;
+    margin-bottom: 28px;
+}
+
+.quote-text__title {
+    font-size: 21px;
+    line-height: 28px;
+    margin: 0 0 4px 0;
+}
+
+.quote__author {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media (min-width: $tablet-width) {
+    .quote-text__title {
+        margin: 48px 0 12px 0;
+    }
+
+    .quote-text {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: $desktop-width) {
+    .quote-text__title {
+        font-size: 28px;
+        line-height: 22px;
+    }
+
+}

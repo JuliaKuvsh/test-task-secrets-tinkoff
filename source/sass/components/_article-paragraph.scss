@@ -1,0 +1,18 @@
+.article-paragraph {
+    margin-bottom: 15px;
+}
+
+@media (min-width: $tablet-width) {
+
+    .article-paragraph {
+        margin-bottom: 16px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+
+    .article-paragraph {
+        margin-bottom: 23px;
+    }
+
+}

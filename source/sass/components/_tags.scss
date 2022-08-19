@@ -1,0 +1,24 @@
+.tags a {
+    color: $color-text;
+    padding: 2px 0 2px 0;
+    background-color: #F1F3F5;
+}
+
+.tags__item {
+    margin-bottom: 12px;
+}
+
+@media (min-width: $tablet-width) {
+    .tags {
+        display: flex;
+    }
+
+    .tags__item {
+        margin-right: 12px;
+        margin-bottom: 0;
+    }
+
+    .tags__item--mobile {
+        display: none;
+    }
+}

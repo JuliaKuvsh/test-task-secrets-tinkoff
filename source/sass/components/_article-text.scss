@@ -1,0 +1,32 @@
+.article-text__link {
+    color: #597DB3;
+}
+
+.article-text__title {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+.article-text__title--solution {
+    margin-top: -6px;
+}
+
+@media (min-width: $tablet-width) {
+    .article-text__title {
+        margin-top: 48px;
+        margin-bottom: 12px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .article-text__title {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 16px;
+    }
+
+    .article-text__title--solution {
+        margin-top: 76px;
+    }
+}
+
