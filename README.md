@@ -1,1 +1,3 @@
-# test-task-secrets-tinkoff
+# Задание - верстка страницы по макету https://www.figma.com/file/SBT4LMsLcLgne8oBIFbxTd/Test.Verstka-(Copy)?node-id=0%3A1
+
+Страница сверстана с использованием методологии БЭМ и препроцессора Sass для устройств с тремя разрешениями: 320, 768 и 1280.
