@@ -1,0 +1,18 @@
+.article-wrapper {
+    padding: 80px 16px 80px 16px;
+}
+
+@media (min-width: $tablet-width) {
+
+    .article-wrapper {
+        padding: 80px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+
+    .article-wrapper  {
+        padding: 80px 296px 80px 200px;
+    }
+
+}
