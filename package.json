@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "style": "sass --watch source/sass/style.scss source/sass/style.css"
+    "style": "sass --watch source/sass/style.scss source/sass/style.css",
+    "deploy": "gh-pages -d source"
   },
   "author": "",
   "license": "ISC",
