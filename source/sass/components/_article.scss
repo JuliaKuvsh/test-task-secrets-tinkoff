@@ -1,5 +1,4 @@
 .article {
-    //margin: 80px 16px 80px 16px;
     padding: 24px 23px 36px 23px;
     border: 1px solid #DCE2E8;
 }
@@ -21,7 +20,6 @@
 @media (min-width: $tablet-width) {
 
     .article {
-        //margin: 80px;
         padding: 47px;
         max-width: 608px;
     }
@@ -43,7 +41,6 @@
 @media (min-width: $desktop-width) {
 
     .article {
-        //margin: 80px 296px 80px 200px;
         padding: 48px 41px 50px 48px;
         font-size: 17px;
         line-height: 28px;
