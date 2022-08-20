@@ -1,0 +1,52 @@
+.article-header {
+    margin-bottom: 40px;
+}
+
+.article-header__author {
+    color: $color-text;
+    margin-top: 6px;
+}
+
+.article-header__tags {
+    margin-top: 8px;
+}
+
+.article-header__title {
+    margin-top: 16px;
+}
+
+.article-header__photo {
+    margin-top: 12px;
+}
+
+@media (min-width: $tablet-width) {
+    
+    .article-header {
+        margin-bottom: 0;
+    }
+
+    .article-header__author {
+        margin-top: 14px;
+    }
+
+    .article-header__title {
+        margin-top: 12px;
+    }
+
+    .article-header__photo {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    
+    .article-header__title {
+        font-size: 36px;
+        line-height: 44px;
+        margin: 12px 0 0 0;
+    }
+
+    .article-header__author {
+        margin-top: 40px;
+    }
+}

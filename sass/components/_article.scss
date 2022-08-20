@@ -1,0 +1,51 @@
+.article {
+    margin: 80px 16px 80px 16px;
+    padding: 24px 23px 36px 23px;
+    border: 1px solid #DCE2E8;
+}
+
+.article__link {
+    color: #597DB3;
+    border-bottom: 1px #597DB3 solid;
+    line-height: 20px;
+}
+
+.article__editor {
+    color: $color-text;
+    line-height: 20px;
+    margin-top: 36px;
+    margin-bottom: 5px;
+}
+
+
+@media (min-width: $tablet-width) {
+
+    .article {
+        margin: 80px;
+        padding: 47px;
+    }
+
+    .article__editor {
+        margin-top: 48px;
+    }
+
+    .article__link {
+        margin-top: 47px;
+        
+    }
+
+    .article-paragraph {
+        margin-bottom: 16px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+
+    .article {
+        margin: 80px 616px 80px 200px;
+        padding: 48px 41px 50px 48px;
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+}

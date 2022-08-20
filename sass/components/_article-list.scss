@@ -1,0 +1,24 @@
+.article-list__item {
+    margin-bottom: 18px;
+}
+
+.article-list {
+    margin-bottom: 0;
+}
+
+@media (min-width: $tablet-width) {
+    .article-list__item {
+        margin-bottom: 16px;
+    }
+}
+
+
+@media (min-width: $desktop-width) {
+    .article-list__item {
+        margin-bottom: 24px;
+    }
+
+    .article-list__item--smaller {
+        margin-bottom: 16px;
+    }
+}

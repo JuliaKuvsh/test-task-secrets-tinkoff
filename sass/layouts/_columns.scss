@@ -1,0 +1,14 @@
+.two-columns {
+    display: flex;
+}
+
+
+@media (min-width: $tablet-width) {
+
+    .two-columns-tablet {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
