@@ -394,7 +394,6 @@ strong {
   }
 }
 .article {
-  margin: 80px 16px 80px 16px;
   padding: 24px 23px 36px 23px;
   border: 1px solid #DCE2E8;
 }
@@ -414,7 +413,6 @@ strong {
 
 @media (min-width: 768px) {
   .article {
-    margin: 80px;
     padding: 47px;
     max-width: 608px;
   }
@@ -430,7 +428,6 @@ strong {
 }
 @media (min-width: 1280px) {
   .article {
-    margin: 80px 296px 80px 200px;
     padding: 48px 41px 50px 48px;
     font-size: 17px;
     line-height: 28px;
@@ -627,6 +624,20 @@ strong {
   }
   .article-header__author {
     margin-top: 40px;
+  }
+}
+.article-wrapper {
+  padding: 80px 16px 80px 16px;
+}
+
+@media (min-width: 768px) {
+  .article-wrapper {
+    padding: 80px;
+  }
+}
+@media (min-width: 1280px) {
+  .article-wrapper {
+    padding: 80px 296px 80px 200px;
   }
 }
 
